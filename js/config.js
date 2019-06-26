@@ -6,6 +6,5 @@ window._config = {
     },
     api: {
         invokeUrl: 'https://sggw6ktefl.execute-api.us-east-1.amazonaws.com/dev' // e.g. https://rc7nyt4tql.execute-api.us-west-2.amazonaws.com/prod,
-    },
-    baseurl:/aws-serverless-trial
+    }
 };
