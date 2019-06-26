@@ -1,8 +1,8 @@
 # Let's play
 1. go to https://benshen98.github.io/aws-serverless-trial/
 2. Click login and use 
-   * Username: hello@word
-   * Password:123456
+   * Username: hello@world
+   * Password: 123456
 
 Yes, I know I had chosen  the most unbreakable password in the world!
 
