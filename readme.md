@@ -19,17 +19,17 @@ Note that you **don't need to give serverless full admin right**, only the right
    * I used github page instead of AWS S3, since it will always be free and available 
 
 # Notes about js
-* `||` and `&&` in js can return non-bool value [ref](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
+#### `||` and `&&` in js can return non-bool value [ref](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
    ``` js
    var WildRydes = window.WildRydes || {};
    ```
-* global variable use `var`, scope use `let`
+#### global variable use `var`, scope use `let`
   var `foo` can be called use `window.foo` as `window` is the root scope
   ``` js
   var WildRydes = window.WildRydes || {};
   ```
-* promises, resolve and reject [ref](https://scotch.io/tutorials/javascript-promises-for-dummies)\
-  then for resolve, catch for reject
+#### promises, resolve and reject [ref](https://scotch.io/tutorials/javascript-promises-for-dummies)
+  `then` for `resolve`, `catch` for `reject`
    ``` js
    // cognito-auth.js
        WildRydes.authToken = new Promise(function fetchCurrentAuthToken(resolve, reject) {
