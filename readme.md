@@ -29,7 +29,9 @@ Note that you **don't need to give serverless full admin right**, only the right
   var WildRydes = window.WildRydes || {};
   ```
 #### promises, resolve and reject [ref](https://scotch.io/tutorials/javascript-promises-for-dummies)
-  `then` for `resolve`, `catch` for `reject`
+  `then` for `resolve`, `catch` for `reject`\
+  Both `resolve` and `reject` are callback(async), i.e. it will execute until the result of `Promise` is know, non-blocking
+  
    ``` js
    // cognito-auth.js
        WildRydes.authToken = new Promise(function fetchCurrentAuthToken(resolve, reject) {
